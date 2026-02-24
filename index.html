@@ -6,11 +6,14 @@
     <title>Troy Davis - Portfolio</title>
     <link rel="stylesheet" href="css/shared.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/education.css">
+    <link rel="stylesheet" href="css/projects.css">
     <!-- Google Fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
-    <!-- Font Awesome for social icons and hamburger -->
+    <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -21,32 +24,17 @@
                 <p class="portfolio-label">portfolio</p>
                 <p class="role">cs @ UT Austin</p>
             </div>
-            <nav class="menu-box">
-                <button class="hamburger" aria-label="Toggle Menu">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="menu-content">
-                    <ul>
-                        <li class="active"><a href="index.html">about me</a></li>
-                        <li><a href="experience.html">experience</a></li>
-                        <li><a href="projects.html">projects</a></li>
-                        <li><a href="education.html">education</a></li>
-                        <li><a href="comingSoon.html">blog</a></li>
-                        <li><a href="comingSoon.html">reach out</a></li>
-                    </ul>
-                </div>
-            </nav>
         </div>
     </header>
 
     <main>
-        <section class="about-section">
+        <!-- Intro / Name -->
+        <section class="about-section" id="about">
             <div class="about-container">
                 <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>I'm a Computer Science student at the University of Texas at Austin, passionate about software engineering and machine learning. I'm constantly seeking opportunities to grow both professionally and personally, with particular interests in machine learning, software engineering, and security.</p>
-                    <p>Beyond my technical skills and aspirations, I enjoy collaborating on diverse projects that challenge me to think creatively and apply innovative solutions. When I'm not coding, you can find me playing basketball or disc golf, hanging out with friends and family, or even on the drive back to home: Cypress, Texas.</p>
-                    
+                    <p>I'm Troy Davis, a Computer Science student at the University of Texas at Austin, interested in software engineering, machine learning, and security.</p>
+                    <p>I'm drawn to projects that make me think creatively and ship practical things. When I'm not coding, I'm usually playing basketball or disc golf, spending time with friends and family, or driving back home to Cypress, Texas.</p>
+
                     <div class="social-links">
                         <h3>Connect With Me</h3>
                         <div class="social-icons">
@@ -57,9 +45,94 @@
                         </div>
                     </div>
                 </div>
-                <div class="about-image">
-                    <img src="assets/troy-davis.jpg" alt="Troy Davis">
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="experience-section" id="experience">
+            <div class="experience-container">
+                <h2>Experience</h2>
+
+                <div class="experience-item">
+                    <div class="experience-logo">
+                        <img src="assets/hpe.png" alt="Hewlett Packard Enterprise Logo">
+                    </div>
+                    <div class="experience-content">
+                        <h3>Hewlett Packard Enterprise</h3>
+                        <p class="company">Software Engineer Intern &mdash; May 2026</p>
+                    </div>
                 </div>
+
+                <div class="experience-item">
+                    <div class="experience-logo">
+                        <img src="assets/hpe.png" alt="Hewlett Packard Enterprise Logo">
+                    </div>
+                    <div class="experience-content">
+                        <h3>Hewlett Packard Enterprise</h3>
+                        <p class="company">Software Engineer Intern &mdash; May 2025 &ndash; Aug 2025</p>
+                        <p class="description">Worked on security and compliance tooling, automating security control mapping and generating machine learning-oriented security control group descriptions.</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-logo">
+                        <img src="assets/infinitaz.png" alt="Infinitaz Logo">
+                    </div>
+                    <div class="experience-content">
+                        <h3>Infinitaz</h3>
+                        <p class="company">Software Engineer Intern &mdash; Dec 2024 &ndash; May 2025</p>
+                        <p class="description">Built .NET services that integrated Azure OpenAI and local models, and automated analytics workflows across distributed virtual machines.</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-logo">
+                        <img src="assets/utd.png" alt="UT Dallas Logo">
+                    </div>
+                    <div class="experience-content">
+                        <h3>The University of Texas at Dallas</h3>
+                        <p class="company">Undergraduate Researcher &mdash; Jun 2024 &ndash; Aug 2024</p>
+                        <p class="description">Researched deep learning for code security, including RNN-based detection of malicious repositories and adversarial attacks on vulnerability detection models.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="education-section" id="education">
+            <div class="education-container">
+                <h2>Education</h2>
+
+                <div class="education-item">
+                    <div class="education-logo">
+                        <img src="assets/utlogo.png" alt="UT Austin Logo">
+                    </div>
+                    <div class="education-details">
+                        <h3>University of Texas at Austin</h3>
+                        <p class="degree">B.S. Computer Science</p>
+                        <p class="duration">2022 &ndash; 2026 &bull; Austin, Texas</p>
+                        <p class="coursework-placeholder">Relevant coursework: Data Structures, Computer Architecture, Probability and Statistics, Linear Algebra, Multivariable Calculus, Discrete Math</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects-section" id="projects">
+            <div class="projects-container">
+                <h2>Projects</h2>
+
+                <div class="project-item">
+                    <h3>CDUB UIL CS PREP</h3>
+                    <p class="description">A web app for practicing UIL Computer Science written questions, with a database-backed system for students and teachers.</p>
+                </div>
+
+                <div class="project-item">
+                    <h3>UIL-CS-EDU</h3>
+                    <p class="description">An educational resource hub with problems, solutions, and walkthroughs to help students ramp into UIL CS programming.</p>
+                </div>
+
+                <!-- Add more projects here later -->
             </div>
         </section>
     </main>
@@ -67,16 +140,5 @@
     <footer>
         <p>© 2025 Troy Davis</p>
     </footer>
-
-    <!-- Add JavaScript for hamburger menu -->
-    <script>
-        document.querySelector('.hamburger').addEventListener('click', function() {
-            const menuContent = document.querySelector('.menu-content');
-            menuContent.classList.toggle('active');
-            const icon = this.querySelector('i');
-            icon.classList.toggle('fa-bars');
-            icon.classList.toggle('fa-times');
-        });
-    </script>
 </body>
 </html>

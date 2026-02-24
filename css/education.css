@@ -8,9 +8,7 @@
 .education-container {
     max-width: 720px;
     margin: 0 auto;
-    border: 1px solid #333;
-    padding: 1.2rem;
-    border-radius: 4px;
+    padding: 0.2rem;
 }
 
 .education-container h2 {
@@ -32,7 +30,7 @@
 
 .education-logo {
     flex: 1;
-    max-width: 100px;
+    max-width: 80px;
 }
 
 .education-logo img {
@@ -94,7 +92,7 @@
     }
 
     .education-logo {
-        max-width: 80px;
+        max-width: 70px;
     }
 
     .education-details h3 {
@@ -147,7 +145,7 @@
     }
 
     .education-logo {
-        max-width: 60px;
+        max-width: 55px;
     }
 
     .education-details h3 {

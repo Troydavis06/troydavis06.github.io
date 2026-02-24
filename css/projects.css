@@ -8,9 +8,7 @@
 .projects-container {
     max-width: 720px;
     margin: 0 auto;
-    border: 1px solid #333;
-    padding: 1.2rem;
-    border-radius: 4px;
+    padding: 0.2rem;
 }
 
 .projects-container h2 {
@@ -22,6 +20,10 @@
 
 .project-item {
     margin-bottom: 1.5rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #FDF6E3;
 }
 
 .project-item:last-child {
@@ -64,27 +66,7 @@
     margin-right: 0.3rem;
 }
 
-.project-item ul {
-    list-style-type: disc;
-    padding-left: 1.5rem;
-}
-
-.project-item li {
-    font-size: clamp(0.6rem, 1.2vw, 0.72rem);
-    font-weight: 400;
-    line-height: 1.6;
-    margin-bottom: 0.3rem;
-}
-
-.project-item .youtube-player {
-    margin-top: 0.5rem;
-    max-width: 100%;
-}
-
-.project-item .youtube-player iframe {
-    border: 1px solid #333;
-    border-radius: 4px;
-}
+/* list-style and embed styling removed for simpler text layout */
 
 /* Media Queries for Projects Section */
 @media (max-width: 768px) {
