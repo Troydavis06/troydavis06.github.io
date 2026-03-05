@@ -18,3 +18,4 @@ Visit: [troydavis06.github.io](https://troydavis06.github.io)
 - `css/` – Shared styles and section-specific styles
 - `assets/` – Images and logos used on the site
 
+    
