@@ -4,13 +4,13 @@ This repository contains the source for my personal site, a simple single-page r
 
 ### Live Site
 
-Visit: [troydavis06.github.io](https://troydavis06.github.io)
+Visit: [troydavis.me](https://troydavis.me)
 
 ### Tech Stack
 
 - **Markup / Styling**: HTML, CSS (I wanted this site to be simple so no JS framework)
 - **Icons / Fonts**: Font Awesome, DM Sans (Google Fonts)
-- **Hosting**: GitHub Pages
+- **Hosting**: Vercel
 
 ### Structure
 
